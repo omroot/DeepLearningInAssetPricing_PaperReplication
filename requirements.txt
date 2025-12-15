@@ -1,0 +1,19 @@
+# Deep Learning in Asset Pricing - Dependencies
+
+# Core
+numpy>=1.20.0
+torch>=1.9.0
+
+# Data & Visualization
+matplotlib>=3.4.0
+pandas>=1.3.0
+
+# Notebooks
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Progress bars (optional)
+tqdm>=4.60.0
+
+# Data download
+gdown>=4.6.0
