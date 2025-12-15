@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Data files (large - download separately)
+data/char/*.npz
+data/macro/*.npz
+data/RF/*.npz
+
+# Keep synthetic data structure but ignore generated files
+data/synthetic_data/*.npz
+
+# Cache directory contents
+cache/checkpoints*/
+cache/plots*/
+cache/*.png
+cache/*.pt
+
+# Logs
+logs/*.log
+logs/*.txt
+
+# Model checkpoints (large files)
+*.pt
+*.pth
+*.ckpt
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Keep directory structure
+!data/.gitkeep
+!data/char/.gitkeep
+!data/macro/.gitkeep
+!data/synthetic_data/.gitkeep
+!cache/.gitkeep
+!logs/.gitkeep
+!docs/.gitkeep
